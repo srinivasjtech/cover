@@ -1,0 +1,63 @@
+.bookpage{
+    width:400px;
+    height:600px;
+    color:blue;
+    margin-left:auto;
+    padding:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(book1.jpeg);
+    background-size: cover;
+}
+.insight{
+    color:black;
+}
+.hrstyle{
+    width:100px;
+}
+.author{
+    display:inline;
+    position: relative;
+    color: white;
+    top:190px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.booktitle{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    top:30px;
+}
+.id{
+    width: 400px;
+    position: relative;
+    top: 180px;
+}
+.pub{
+    font-size: medium;
+    position: relative;
+    top:155px;
+    left: 270px;
+}
+.ed{
+    color:black;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 85px;
+}
+.subtitle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    position: relative;
+    top: 40px;
+}
+.mypic{
+    position:relative;
+    top: 135px;
+    left:260px;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
