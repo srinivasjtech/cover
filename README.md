@@ -42,6 +42,7 @@ book.html
 </head>
 <body>
     <div class="bookpage">
+        <div id="border"></div>
         <div class="insight">
             SEC INSIGHT
         </div>
@@ -84,6 +85,8 @@ book.css
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(book1.jpeg);
     background-size: cover;
+    border: 3px solid #333;
+    border-radius: 12px;
 }
 .insight{
     color:black;
@@ -138,12 +141,21 @@ book.css
     height: 100px;
     background-size: cover;
 }
+#border{
+    border: 4px solid #333;
+    position: absolute;
+    width:400px;
+    height:615px;
+    left: 940px;
+    top: 20px;
+}
+
 
 ```
 
 ## OUTPUT:
 
-![alt text](<Screenshot (1).png>)
+![alt text](<Screenshot (9).png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
